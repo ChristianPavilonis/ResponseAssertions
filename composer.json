@@ -1,5 +1,5 @@
 {
-  "name": "ChristianPav/laravel-response-assertions",
+  "name": "christian-pav/laravel-response-assertions",
   "description": "Helpers for http responses so you don't have to remember all the codes",
   "keywords": ["laravel"],
   "type": "test-helpers",
