@@ -1,0 +1,18 @@
+{
+  "name": "ChristianPav/laravel-response-assertions",
+  "description": "Helpers for http responses so you don't have to remember all the codes",
+  "keywords": ["laravel"],
+  "type": "test-helpers",
+  "authors": [
+    {
+      "name": "Christian Pavilonis",
+      "email": "christianpavilonis@outlook.com.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "ChristianPav\\ResponseAssertions\\": "src/"
+    }
+  }
+}
