@@ -48,14 +48,24 @@ class TestResponse extends LaravelTestResponse
         return $this->assertStatus(204);
     }
 
+    public function assertDeleted()
+    {
+        return $this->assertNoContent();
+    }
+
     public function assertPartialContent()
     {
         return $this->assertStatus(206);
     }
 
-    public function assertUnauthorized()
+    public function assertUnauthenticated()
     {
         return $this->assertStatus(401);
+    }
+
+    public function assertUnauthorized()
+    {
+        return $this->assertStatus(403);
     }
 
     public function assertInternalServerError()
